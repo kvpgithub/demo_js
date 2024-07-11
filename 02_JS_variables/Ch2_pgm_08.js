@@ -10,6 +10,11 @@ console.log("New score: " + score);
 
 console.log("Way to go!");
 
+console.log("You splatted a kumquat!");
+score = score + 100;
+console.log("New score: " + score);
+
+console.log("Congratulations, you're a kumquat-splatting master!");
 
 
 /* Further Adventures
