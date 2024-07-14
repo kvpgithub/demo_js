@@ -10,6 +10,17 @@ showMovieInfo = function () {
   console.log("------------------------------");
 };
 
+showMovieInfo();
+
+var movie;
+
+movie = {};
+
+movie.title = "The Matrix";
+movie.actors = "Kumar,hema";
+movie.directors = "Rajkumar";
+
+showMovieInfo();
 
 
 /* Further Adventures

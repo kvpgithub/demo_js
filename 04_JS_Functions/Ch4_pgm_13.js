@@ -32,6 +32,31 @@ showPlayerInfo();
 player = player2;
 showPlayerInfo();
 
+var showPlayerLocation = function () {
+    console.log(player.name + " is in " + player.place);
+};
+
+var showPlayerHealth = function () {
+    console.log(player.name + " has health " + player.health);
+};
+
+showPlayerInfo = function () {
+    console.log(player.name);
+    console.log("------------------------------");
+    showPlayerLocation();
+    showPlayerHealth();
+    console.log("------------------------------");
+    console.log("");
+};
+
+player = player1;
+showPlayerInfo();
+
+player = player2;
+showPlayerInfo();
+
+
+
 
 
 /* Further Adventures

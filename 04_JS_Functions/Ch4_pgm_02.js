@@ -3,6 +3,7 @@
 var movie1;
 var movie2;
 var movie3;
+var movie4;
 
 movie1 = {
   title: "Inside Out",
@@ -22,24 +23,53 @@ movie3 = {
   directors: "J.J.Abrams"
 };
 
-console.log("Movie information for " + movie1.title);
-console.log("------------------------------");
-console.log("Actors: " + movie1.actors);
-console.log("Directors: " + movie1.directors);
-console.log("------------------------------");
+movie4 = {
+  title: "The Matrix",
+  actors: "Keanu Reeves, Carrie-Anne Moss",
+  directors: "Lana Wachowski, Lilly Wachowski"
+};
 
-console.log("Movie information for " + movie2.title);
-console.log("------------------------------");
-console.log("Actors: " + movie2.actors);
-console.log("Directors: " + movie2.directors);
-console.log("------------------------------");
+function displayMovieInfo(movie) {
+  console.log("Movie information for " + movie.title);
+  console.log("------------------------------");
+  console.log("Actors: " + movie.actors);
+  console.log("Directors: " + movie.directors);
+  console.log("------------------------------");
+  console.log("");
+}
 
-console.log("Movie information for " + movie3.title);
-console.log("------------------------------");
-console.log("Actors: " + movie3.actors);
-console.log("Directors: " + movie3.directors);
-console.log("------------------------------");
+  displayMovieInfo(movie1);
+  displayMovieInfo(movie2);
+  displayMovieInfo(movie3);
+  displayMovieInfo(movie4);
 
+  var event1 = {
+    title: "Team Meeting",
+    date: "2024-07-20",
+    time: "10:00 AM"
+};
+
+var event2 = {
+    title: "Project Deadline",
+    date: "2024-07-25",
+    time: "5:00 PM"
+};
+
+var event3 = {
+    title: "Client Presentation",
+    date: "2024-07-30",
+    time: "3:00 PM"
+};
+function displayEventInfo(event) {
+  console.log("Event: " + event.title);
+  console.log("Date: " + event.date);
+  console.log("Time: " + event.time);
+  console.log("------------------------------");
+}
+
+displayEventInfo(event1);
+displayEventInfo(event2);
+displayEventInfo(event3);
 
 
 /* Further Adventures

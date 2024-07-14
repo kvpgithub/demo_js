@@ -2,6 +2,9 @@
 
 var findTotal;
 var displayMenu;
+var number1;
+var number2;
+var result;
 
 findTotal = function () {
 	result = number1 + number2;
@@ -14,7 +17,11 @@ displayMenu = function () {
 	console.log("(9) Quit");
 };
 
-
+number1 = 10;
+number2 = 20;
+findTotal();
+console.log("total:" + result);
+displayMenu();
 
 /* Further Adventures
  *

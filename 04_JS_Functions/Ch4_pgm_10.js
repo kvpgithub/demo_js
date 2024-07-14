@@ -22,6 +22,15 @@ movie = movie1;
 
 showMovieInfo();
 
+var movie2 = {};
+movie = movie2;
+showMovieInfo();
+
+movie2.title = "Inception";
+movie2.actors = "Leonardo DiCaprio, Joseph Gordon-Levitt";
+movie2.directors = "Christopher Nolan";
+
+showMovieInfo();
 
 
 /* Further Adventures

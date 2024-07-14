@@ -3,12 +3,20 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello\nProgram!");
 };
 
 sayHello();
 sayHello();
 sayHello();
+
+var printLetters = function (message) {
+    for (var i = 0; i < message.length; i++) {
+        console.log(message[i]);
+    }
+};
+
+printLetters("Hello World!");
 
 
 
