@@ -3,12 +3,12 @@
 var book;
 var bookName;
 
-bookName = "The Adventures of Tom Sawyer";
+bookName = "The programming";
 
 book = {
     title : bookName
 };
-
+console.log(book);
 
 
 /* Further Adventures

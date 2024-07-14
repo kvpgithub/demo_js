@@ -10,7 +10,8 @@ var location = {
     "elevation" : 47.000
   };
   
-  
+  console.log(location.city);
+  console.log(location);  
   
   /* Further Adventures
    *
