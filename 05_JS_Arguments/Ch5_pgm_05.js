@@ -2,6 +2,7 @@
 
 var square;
 
+
 square = function (numberToSquare) {
   var result;
   result = numberToSquare * numberToSquare;
@@ -13,7 +14,33 @@ square(-2);
 square(1111);
 square(0.5);
 
+var cube;
 
+cube = function (numberTOcube){
+  var result;
+  result = numberTOcube * numberTOcube * numberTOcube;
+  console.log(numberTOcube + " * " + numberTOcube + " * " + number);
+}
+
+cube(3);
+cube(-4);
+cube(0.5);
+cube(0);
+
+
+var squareRoot;
+
+squareRoot = function (numberTosquareRoot){
+  var result;
+  result = Math.sqrt(numberTosquareRoot);
+  console.log(numberTosquareRoot + " * " + numberTosquareRoot + " = " + result);
+
+}
+
+squareRoot(6);
+squareRoot(-9);
+squareRoot(0.5);
+squareRoot(0);
 
 /* Further Adventures
  *

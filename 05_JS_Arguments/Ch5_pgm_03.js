@@ -6,7 +6,15 @@ showMessage = function (message) {
 	console.log("The message is: " + message);
 };
 
+showMessage("It's full of ice!");
 showMessage("It's full of stars!");
+showMessage("It's full of rainbows!");
+
+showMessage = function (message){
+	console.log("The message is: " + message + "Welcome!");
+}
+
+showMessage("its full of stars! ")
 
 
 
