@@ -8,10 +8,24 @@ add = function (number1, number2) {
 	return total;
 };
 
-var sum = add(50, 23);
+var numSum = add(50, 23);
 
-console.log(sum);
+console.log(numSum);
 
+var sum1 = 50;
+var sum2 = 23;
+var result = add(sum1, sum2);
+console.log("The sum of " + sum1 + " and " + sum2 + " is " + result); 
+
+var nestedSum = add(add(10, 20), 30);
+console.log(nestedSum);
+
+var addThreeNumbers = function (number1, number2, number3) {
+    return add(add(number1, number2), number3);
+};
+
+var sumOfThree = addThreeNumbers(5, 10, 15);
+console.log("The sum of 5, 10, and 15 is " + sumOfThree); 
 
 
 /* Further Adventures

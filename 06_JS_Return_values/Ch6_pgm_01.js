@@ -11,6 +11,16 @@ response = getMessage();
 
 console.log(response);
 
+var getMyMessage;
+
+ getMyMessage = function(){
+    return"welcome to programming world!";
+ }
+ response = getMyMessage();
+ console.log(response);
+
+ getMessage();
+ getMyMessage();
 
 
 /* Further Adventures

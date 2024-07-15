@@ -3,11 +3,11 @@
 var getHelloTo;
 var fullMessage;
 
-getHelloTo = function (name) {
-    return "Hello to " + name;
+getHelloTo = function (name1,name2) {
+    return "Hello to " + name1 + " and " + name2;
 };
 
-fullMessage = getHelloTo("Kandra");
+fullMessage = getHelloTo("Kandra","dax");
 
 console.log(fullMessage);
 

@@ -19,7 +19,7 @@ getPlayerPlace = function (playerName, playerPlace) {
 };
 
 getBorder = function () {
-    return "********************";
+    return "-----------------";
 };
 
 getPlayerInfo = function (playerName, playerPlace, playerHealth) {
@@ -36,6 +36,8 @@ getPlayerInfo = function (playerName, playerPlace, playerHealth) {
 };
 
 console.log(getPlayerInfo("Kandra", "The Dungeon of Doom", 50));
+console.log(getPlayerInfo("Dax", "The Bath", 60));
+
 
 
 
